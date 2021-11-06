@@ -32,9 +32,9 @@ const submit = async () => {
         }),
       }
     ).then((response) => {
-      response.text().then((data) => {
+      response.json().then((data) => {
         const text = document.getElementById("registerResult");
-        text.innerHTML = "Successfully Updated";
+        text.innerHTML = `Successfully Updated repo to be ${data.repoURL}`;
       });
     });
   } else {
