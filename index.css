@@ -1,0 +1,14 @@
+.box {
+  margin: auto;
+  width: 50%;
+  height: 400px;
+  padding: 10px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.divider {
+  height: 0px;
+  border: none;
+  border-top: 3px solid black;
+}

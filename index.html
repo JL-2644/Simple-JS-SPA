@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Jiaqi's Simple SPA</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id = "register">
+        <h1>Register</h1>
+        <hr class="divider"/>
+        <div class = "box">
+            <h4 >Email</h4>
+            <input id="email" placeholder="Email">
+            <h4>Secret</h4>
+            <input id="secret" placeholder="Secret">
+            <h4>Repo URL</h4>
+            <input id="repo" placeholder="URL">
+            <div style="margin: 20px">
+                <button onclick="confirm()">Confirm</button>
+                <button onclick="submit()">Submit</button>
+            </div>
+            <p id="registerResult"></p>
+        </div>
+    </div>
+</body>
